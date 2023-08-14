@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@7.2.96/css/materialdesignicons.min.css">
+    <script type="module" src="JS/script.js"></script>
+    <title>Document</title>
+</head>
+
+<dialog class="absolute">
+    <div class="h-screen w-screen flex items-center justify-center bg-black/60 relative">
+
+       <button id="close" class="mdi mdi-close text-white text-3xl"></button> 
+
+        <div class="card flex flex-row items-center justify-center border-4 border-yellow-600">
+            <div class="w-56">
+                <img id="image" src="/images/village.jpg" class="h-full w-full opacity-80">               
+            </div> 
+
+            <div class="w-80 h-56 text-left overflow-y-auto p-1 text-white">
+                <h1 id="title" class="text-2xl text-center opacity-80 my-2">Vila muito bacana</h1>
+                
+                <ul class="p-1 text-lg opacity-70 flex flex-col">
+                    <li id="habitants" class="my-1"></li>
+                    <li id="spots" class="my-1"></li>
+                    <li id="danger" class="my-1"></li>
+                    <li id="description" class="my-1"></li>
+                </ul>
+
+            </div>    
+        </div>
+       
+    </div>
+    </dialog>
+
+<body class="h-screen flex justify-center items-center relative">
+
+    
+
+    <div class="relative opacity-80 h-11/12 w-11/12">
+        <img src="https://img.itch.zone/aW1hZ2UvMTQ1MDQ3My84NDY5NjMxLnBuZw==/original/cfp%2BcQ.png" alt="" class="h-full w-full">
+
+        <button class="village buttons" data-place="village">Village</button>
+        <button class="mill buttons" data-place="mill">Mill</button>
+        <button class="castle buttons" data-place="castle">Castel</button>
+        <button class="creepyForest buttons" data-place="Forest">Creepy Forest</button>
+        <button class="lighthouse buttons" data-place="lightHouse">Lighthouse</button>
+        <button class="farm buttons" data-place="farm">Farm</button>
+    </div>
+
+</body>
+</html>

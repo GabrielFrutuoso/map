@@ -1,0 +1,72 @@
+@font-face { font-family: pixel; src: url(/font/VCR_OSD_MONO_1.001.ttf); } 
+
+*{
+    font-family: pixel;
+}
+
+body{
+    background-color: #957D4F;
+    overflow: hidden; 
+}
+
+.card{
+    background-color: #9e8454;
+}
+
+#close{
+    color: white;
+    position: absolute;
+    top: 2%;
+    right: 2%;
+}
+
+.buttons{
+    color: white;
+    background-color: #463f3295;
+    border-radius: 7px;
+    padding: 1px 2px;
+    font-size: clamp(0.200rem, 0rem + 2vw, 1.2rem);
+    position: absolute;
+}
+
+.mill{
+    top: 49%;
+    left: 17.1%; 
+
+}   
+
+
+.village{
+    top: 28%;
+    left: 37%;
+}
+
+
+.castle{
+    top: 13%;
+    right: 20%;
+
+}
+
+.creepyForest{
+    top: 19%;
+    left: 9%;
+
+}
+
+.lighthouse{
+    top: 80%;
+    right: 39%;
+}
+
+.farm{
+    top: 50%;
+    right: 25%;
+}
+
+dialog{
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    background-color: transparent;
+}
