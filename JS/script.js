@@ -78,7 +78,7 @@ let places ={
             source: 'castle',
             title: 'Castelo Real',
             habitants: 587,
-            spots: 'Loja de armaduras, Taverna do Rei, ',
+            spots: 'Loja de armaduras, Taverna do Rei',
             danger: 'baixa',
             description: 'Uma densa floresta repleta de criaturas, onde há boatos de uma vila de duendes'
         },
@@ -93,4 +93,3 @@ let places ={
     }
 
 
-console.log(places.farm.title)
