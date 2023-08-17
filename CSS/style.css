@@ -24,7 +24,7 @@ body{
     background-color: #463f3295;
     border-radius: 7px;
     padding: 1px 2px;
-    font-size: clamp(0.200rem, 0rem + 2vw, 1.2rem);
+    font-size: 12px;
     position: absolute;
 }
 
