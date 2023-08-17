@@ -1,15 +1,15 @@
-@font-face { font-family: pixel; src: url(/map/font/VCR_OSD_MONO_1.001.ttf); } 
+@font-face { font-family: pixel; src: url(/map/assets/VCR_OSD_MONO_1.001.ttf); } 
 
 *{
     font-family: pixel;
 }
 
 body{
-    background-color: #957D4F;
+    background-color: #9e8454;
 }
 
 .card{
-    background-color: #9e8454;
+    background-color: #612614;
 }
 
 #close{
@@ -21,47 +21,53 @@ body{
 
 .buttons{
     color: white;
-    background-color: #463f3295;
+    background-color: #463f326d;
     border-radius: 7px;
     padding: 1px 2px;
     font-size: 12px;
     position: absolute;
-}
-
-.mill{
-    top: 49%;
-    left: 17.1%; 
-
 }   
 
-
 .village{
-    top: 28%;
-    left: 37%;
+    top: 45%;
+    right: 24%;
 }
 
+.covil{
+    top: 76%;
+    left: 1%;
+}
+
+.vilaAna{
+    top: 8%;
+    left: 12%;
+}
+
+.forest{
+    top: 20%;
+    left: 28%;
+}
 
 .castle{
-    top: 13%;
-    right: 20%;
-
+    top: 52%;
+    right: 3%;
 }
 
-.creepyForest{
-    top: 19%;
-    left: 9%;
-
+.pike{
+    top: 60%;
+    right: 49%;
 }
 
-.lighthouse{
-    top: 80%;
-    right: 39%;
+.cave1{
+    top: 84%;
+    right: 51%;
 }
 
-.farm{
-    top: 50%;
-    right: 25%;
+.cave2{
+    top: 46%;
+    right: 42%;
 }
+
 
 dialog{
     height: 100%;
